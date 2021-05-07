@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Teko:wght@300&display=swap');
+
+body
+{
+	background-color: white;
+	font-family: 'Teko', sans-serif;
+
+
+}
+
+.clock
+{
+	position:absolute;
+	 top: 50%;
+	left: 50%;
+	letter-spacing: 5px;
+	background-color: black;
+	justify-content: center;
+	text-align: center; 
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	 color: red;
+	 font-size: 50px;
+	 padding: 20px;
+	 width: 250px;
+	 height: auto;
+	  
+}
+
+ 
