@@ -1,5 +1,6 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Odibee+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Marck+Script&display=swap');
 body
 
 {
@@ -30,6 +31,7 @@ section
 	margin: 10px;
 	padding: 15px;
 	border-radius: 5px;
+	text-align: center;
 
 }
 .image
@@ -53,11 +55,13 @@ section
 {
 	 min-width: 350px;
 	 max-width: 350px;
-	  height: 80px;
+	  height: 85px;
 	 background-color: #faf59d;
 	 margin-top: 20px;
 	 margin-bottom: 20px;
 	 padding: 10px;
+	 font-family: 'Marck Script', cursive;
+	 font-size: 25px;
 
 }
 
@@ -103,13 +107,7 @@ button:hover
 	background-color: #818282;
 }
 
-.imp
-{
-	 
-	 margin-left: auto;
-	 margin-right: auto;
-
-}
+ 
 
 .btn
 {
