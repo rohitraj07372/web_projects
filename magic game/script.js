@@ -41,8 +41,12 @@ var msg1 =["Think any amount in Rupee bteween 1 - 10.", "Take the same amount fr
   function next(){
         if(count<=msg1.length)
         {
-          msg.innerHTML = msg1[count];
-          count++;
+           if(i<msg1[count].length)
+           {
+             msg.innerHTML += msg1[count].charAt(i);
+             i++;
+           }
+           count++;
         }
    }
 
