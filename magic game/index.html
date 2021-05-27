@@ -5,7 +5,7 @@
         </title>
         <link rel="stylesheet" href="style.css">
     </head>
-    <body onload="typeWriter()" >
+    <body onload="typeWriter(), volume()" >
        
        <section>
            
@@ -15,16 +15,16 @@
         <div class="main" >
 
             <div class="imp"> 
-                <h1 >
+                <h1 id="title">
                     
                   Math Magic</h1>
-                 <audio src="mus.mp3" controls="controls" autoplay="true" loop="true" style="margin:19px"></audio>
+                 <audio id="aud" src="mus.mp3" controls="controls" autoplay="true" loop="true" style="margin:19px" ></audio>
             <div class="image" ></div>
             <div id="message" >
                 
             </div class="btn">
             
-                <button onclick="reset()"  type="button" class="button button2"> REPLAY </button>
+                <button  onclick="refreshPage()" type="button" class="button button2"> REPLAY </button>
                  <button onclick="next()"  type="button" class=" button button1"> OK </button>
              
         </div>

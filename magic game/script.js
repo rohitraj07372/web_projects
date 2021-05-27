@@ -13,7 +13,7 @@ var a = prompt('Enter your name');
  // **************************** end og getting name **************************
 var i = 0;
 var txt = "Hello "+a+" My name is "  + "Rohit, let's play a magical game, Press ok";
-var speed = 50;
+var speed = 70;
 
 var msg = document.getElementById('message');
 
@@ -25,30 +25,31 @@ function typeWriter() {
   }
 }
 
- function reset()
- {
-      
- }
+  function refreshPage(){
+    window.location.reload();
+} 
+ 
 
 var msg1 =["Think any amount in Rupee bteween 1 - 10.", "Take the same amount from your friend and add them",
 "Now add rupee " + rand + " to your number","suppose you spend half of the money in bar",
 "Now return the money that you have taken form your friend form the remaining money",
-"You have "+"<b>"+ rand/2+"</b>"  + " rupee with you! isn't it cool"] ;
+"You have "+"<b>"+ rand/2+"</b>"  + " rupee with you! isn't it cool!!", "Thank You"] ;
  
 
  
 
   function next(){
-        if(count<=msg1.length)
+    let i = 0;
+        if(count<msg1.length)
         {
-           if(i<msg1[count].length)
-           {
-             msg.innerHTML += msg1[count].charAt(i);
-             i++;
-           }
+            
+            msg.innerHTML = msg1[count];
            count++;
-        }
    }
 
+}
 
-
+function volume()
+{
+  document.getElementById('aud').volume = 0.3;
+}
