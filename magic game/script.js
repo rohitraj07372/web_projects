@@ -97,15 +97,7 @@ function typeWriter() {
 
  
 
-<<<<<<< HEAD
-  
-
-
-=======
-var msg1 =["Think any amount in Rupee, bteween 1 - 10.", "Take the same amount from your friend and add them.","Now You want to arrange your birthday party so i gifted you  " +"<b>" + rand +"</b>" + " rupee add them too.","suppose you spend half of the money in your party.",
-"Now return the money that you have taken form your friend form the remaining money",
-"You have "+"<b>"+ rand/2+"</b>"  + " rupee with you! isn't it cool!!", "Thank You"] ;
->>>>>>> aeb3d2c84f83693670efdc0b09ab58927bc9040c
+ 
 
  
 
