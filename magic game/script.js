@@ -105,7 +105,13 @@ function typeWriter() {
 
 
 
-function volume()
+function volume_0()
 {
-  document.getElementById('aud').volume = 0.3;
+  document.getElementById('aud').pause() ;
+
+}
+function volume_1()
+{
+  document.getElementById('aud').play() ;
+
 }

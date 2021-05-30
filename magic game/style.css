@@ -118,7 +118,31 @@ button:hover
 	 margin-right: auto;
 
 }
-
+ .btn1
+ {
+ 	width: 60px;
+ 	height: 60px;
+ 	border-radius: 50%;
+ 	background-color: #0074b8;
+ 	margin-left: auto;
+ 	margin-right: auto;
+ 	margin-bottom: 40px;
+ 	 
+ 	margin: 10px;
+ }
+ .btn2
+ {
+ 	width: 60px;
+ 	height: 60px;
+ 	border-radius: 50%;
+ 	background-color: #0074b8;
+ 	margin-left: auto;
+ 	margin-right: auto;
+ 	margin-bottom: 40px;
+ 	text-align: center;
+ 	margin: 10px;
+ }
+  
 @media only screen and (max-width: 768px) 
 { 
 	 section

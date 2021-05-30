@@ -7,8 +7,9 @@
     <meta name="viewport" content="width=device-width; initial-scale=1.0">
        
         <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" type="text/css">
     </head>
-    <body onload="typeWriter(), volume()" >
+    <body onload="typeWriter()" >
        
        <section>
            
@@ -18,17 +19,28 @@
         <div class="main" >
 
             <div class="imp"> 
-                <h1 id="title">
+                  <h1 id="title">
                     
                   Math Magic</h1>
-                 <audio id="aud" src="mus.mp3" controls="controls" autoplay="true" loop="true" style="margin:19px" ></audio>
+                  <div class=" ">
+            
+                <button  onclick="volume_1()" type="button" class="btn1" ><i class="fa fa-play-circle fa-2x"></i>  </button>
+                <button onclick="volume_0()" type="button" class="btn2" > <i class="fa fa-stop-circle fa-2x"> </i></button>
+             
+        </div>
+                   <div id="audio">
+                  <audio id="aud" src="pubg.mp3" autoplay="true" loop="true" >
+ 
+                  </audio>
+                    </div> 
+                 
             <div class="image" ></div>
             <div id="message" >
                 
             </div class="btn">
             
                 <button  onclick="again_play()" type="button" class="button button2"> REPLAY </button>
-                 <button onclick="next()"  type="button" class=" button button1"> OK </button>
+                 <button onclick="next()" type="button" class=" button button1"> OK </button>
              
         </div>
            
