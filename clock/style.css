@@ -142,7 +142,7 @@ body
   height: 80px;
    background-color: yellow;
     position: absolute;
-  bottom: 32%;
+  bottom: 35%;
   left: 49.1%;
   
   
@@ -157,7 +157,7 @@ body
   height: 100px;
   background-color: orange;
   position: absolute;
-  bottom: 32%;
+  bottom: 35%;
   left: 49.1%;
  background-image: url('face.png');
    background-size: cover;
@@ -171,7 +171,7 @@ body
   background-color: blue;
   position: absolute;
     
-    bottom: 32%;
+    bottom: 35%;
   left: 49.1%;
 
 }
