@@ -1,0 +1,99 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Black+Ops+One&family=Odibee+Sans&display=swap');
+
+body
+{
+	font-family: 'Black Ops One', cursive;
+
+}
+*, html {
+    margin:0;
+    padding:0;  
+}
+.main
+{
+	height: 100vh;
+	display: flex;
+	flex-direction:column;
+	justify-content: center;
+	align-items: center;
+
+
+}
+
+.c-face
+{
+	width: 500px;
+	height:500px;
+   
+	background-image: url('face.png');
+	background-size: cover;
+	
+	border-radius: 50%;
+	 
+
+}
+
+.hand
+{
+	transform-origin: 50% 100%;
+	transform: rotate(0deg);
+	 
+	  
+        
+}
+ 
+.hour
+{ 
+  width:5px;
+  height: 80px;
+   background-color: yellow;
+    position: absolute;
+  bottom: 41.9%;
+  left: 49.2%;
+  
+  
+  
+}
+  
+
+ 
+.min
+{ 
+  width: 5px;
+  height: 100px;
+  background-color: orange;
+  position: absolute;
+   bottom: 41.9%;
+  left: 49.2%;
+ background-image: url('face.png');
+   background-size: cover;
+   
+}
+.sec
+{ 
+  width:5px;
+  height: 120px;
+  position: absolute;
+  background-color: blue;
+  position: absolute;
+    
+     bottom: 41.9%;
+  left: 49.2%;
+
+}
+
+.digital
+{ 
+	width: 320px;
+	height: 70px;
+	background: #85018a;
+	border-radius: 15px;
+   padding: 10px;
+   color: white;
+   text-align: center;
+   font-size: 40px;
+
+
+	 
+}
