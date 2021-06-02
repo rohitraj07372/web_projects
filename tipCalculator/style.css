@@ -46,7 +46,7 @@ input{
 }
 .final-answer
 {
-    
+     
     padding: 8px;
     margin-top: 15px;
     margin-bottom: 4px;
@@ -69,9 +69,16 @@ input{
 {
     display: flex;
     justify-content: space-around;
+     
 }
 .total-amount-per-person
 {
     display: flex;
     justify-content: space-around;
+     
+}
+p{
+    display: flex;
+    justify-content: start;
+    margin-left: 18px;
 }
