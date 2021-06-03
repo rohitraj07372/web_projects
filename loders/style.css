@@ -1,0 +1,141 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+/* .basic
+{
+    position: relative;
+    display:inline;
+} */
+
+.loder1
+{
+    border: 12px solid rgb(192, 190, 190);
+    border-top:12px solid rgb(155, 6, 192);
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    margin: 10px;
+    animation: loder1 2s linear infinite;
+    display: inline-block;
+     
+    
+}
+
+@keyframes loder1 {
+    0%{transform: rotate(0deg) ;}
+    100%{transform: rotate(360deg);}
+}
+
+.loder2
+{
+    border: 12px solid rgb(192, 190, 190);
+    border-top:12px solid rgb(155, 6, 192);
+    border-bottom: 12px solid rgb(224, 18, 121);
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    margin: 10px;
+    animation: loder1 2s linear infinite;
+    display: inline-block;
+}
+
+.loder3
+{
+    border: 12px solid rgb(192, 190, 190);
+    border-top:12px solid rgb(155, 6, 192);
+    border-bottom: 12px solid rgb(224, 18, 121);
+    border-left: 12px solid red;
+    border-right: 12px solid yellow;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    margin: 10px;
+    animation: loder1 2s linear infinite;
+    display: inline-block;
+}
+/* ***************************************************************************** */
+.loder4
+{
+    margin: 20px;
+    display: inline-block;
+}
+.dot1, .dot2, .dot3
+{
+ width: 15px;
+ height: 15px;
+ border-radius: 50%;
+ background-color: gray;
+ display: inline-block;
+}
+.dot1{
+animation: dot1 1s linear infinite alternate;
+}
+.dot2{
+    animation: dot2 2s linear infinite alternate;
+}
+.dot3{
+    animation: dot3 1s linear infinite alternate ;
+}
+
+@keyframes dot1 {
+    0%{ }
+    100%{background-color: red; height: 30px; border-radius: 20%;}
+}
+
+@keyframes dot2 {
+    0%{ }
+    100%{background-color: red; height: 25px; border-radius: 20%;}
+}
+@keyframes dot3 {
+    0%{ }
+    100%{background-color: red; height: 20px; border-radius: 20%;}
+}
+
+
+
+/*  **************   loder 4 end   ************************** */
+
+/* ********************** loder 5  ********************** */
+
+.loder5
+{
+    margin: 20px;
+    display: inline-block;
+    
+}
+.dot4, .dot5, .dot6
+{
+ width: 15px;
+ height: 15px;
+ border-radius: 50%;
+ background-color: gray;
+ display: inline-block;
+}
+.dot4{
+animation: dot4  .5s linear infinite alternate-reverse ;
+}
+.dot5{
+    animation: dot5 .5s  linear infinite  ;
+}
+.dot6{
+    animation: dot6 .5s linear infinite  reverse   ;
+}
+
+@keyframes dot4 {
+    0%{background-color: red; }
+    100%{background-color: yellow;  }
+}
+
+@keyframes dot5 {
+    0%{background-color: yellow; }
+    100%{background-color: red; }
+}
+@keyframes dot6 {
+    0%{ background-color: yellow;}
+    100%{background-color: red;  }
+}
+
+
+/* **************************   end of loder 5 ************************* */
