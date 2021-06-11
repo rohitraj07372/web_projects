@@ -12,32 +12,35 @@ body
 }
 .main
 {
-	height: 100vh;
-	display: flex;
-	flex-direction:column;
-	justify-content: center;
-	align-items: center;
-
+	height:50vw;
+  width: 50vw;
+ position: relative;
+ background: url('face.png');
+background-size: cover;
+background-repeat: no-repeat;
+ 
+margin: auto;
 
 }
 
-.c-face
+/* .c-face
 {
-	width: 500px;
-	height:500px;
-   
-	background-image: url('face.png');
-	background-size: cover;
+  position: relative;
+	width: 100vw;
+	height:100vh;
+  margin:auto;
 	
-	border-radius: 50%;
 	 
+	 background-color: green;
 
-}
+} */
 
 .hand
 {
 	transform-origin: 50% 100%;
-	transform: rotate(0deg);
+  border-radius:80px;
+  position:absolute;
+ 
 	 
 	  
         
@@ -45,13 +48,12 @@ body
  
 .hour
 { 
-  width:5px;
-  height: 80px;
+  width:1%;
+  height: 19%;
    background-color: yellow;
-    position: absolute;
-  bottom: 41.9%;
-  left: 49.2%;
-  
+   top: 33.5%;
+   right:49.5%;
+ 
   
   
 }
@@ -60,31 +62,30 @@ body
  
 .min
 { 
-  width: 5px;
-  height: 100px;
+  width:1%;
+  height: 22%;
   background-color: orange;
-  position: absolute;
-   bottom: 41.9%;
-  left: 49.2%;
+   
  background-image: url('face.png');
    background-size: cover;
-   
+   top: 30%;
+   right:50.1%;
 }
 .sec
 { 
-  width:5px;
-  height: 120px;
-  position: absolute;
+  width:1%;
+  height: 27%;
+   
   background-color: blue;
-  position: absolute;
-    
-     bottom: 41.9%;
-  left: 49.2%;
-
+  top: 25%;
+   right:49.5%;
 }
 
 .digital
 { 
+  position: relative;
+  
+  margin: auto;
 	width: 320px;
 	height: 70px;
 	background: #85018a;
@@ -99,10 +100,11 @@ body
 }
 
 
-@media only screen and (max-width: 500px) 
+@media only screen and (max-width: 760px) 
 {
   .digital
 { 
+  position:relative;
   width: 300px;
   height: 60px;
   background: #85018a;
@@ -112,68 +114,20 @@ body
    text-align: center;
    font-size: 35px;
    margin: 8px;
+   margin:auto;
 }
 
-   .c-face
+.main
 {
-  width: 400px;
-  height:400px;
-   margin: 8px;
-  background-image: url('face.png');
-  background-size: cover;
-  
-  border-radius: 50%;
-   
-
-}
-
-.hand
-{
-  transform-origin: 50% 100%;
-  transform: rotate(0deg);
-   
-    
-        
-}
+	height:60vh;
+  width: 60vh;
+ position: relative;
+ background: url('face.png');
+background-size: cover;
+background-repeat: no-repeat;
  
-.hour
-{ 
-  width:5px;
-  height: 80px;
-   background-color: yellow;
-    position: absolute;
-  bottom: 37%;
-  left: 49.1%;
-  
-  
-  
 }
-  
+}
 
  
-.min
-{ 
-  width: 5px;
-  height: 100px;
-  background-color: orange;
-  position: absolute;
-  bottom: 37%;
-  left: 49.1%;
- background-image: url('face.png');
-   background-size: cover;
-   
-}
-.sec
-{ 
-  width:5px;
-  height: 120px;
-  position: absolute;
-  background-color: blue;
-  position: absolute;
-    
-    bottom: 37%;
-  left: 49.1%;
 
-}
-
-}
