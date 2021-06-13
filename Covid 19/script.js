@@ -142,6 +142,8 @@ fetch("https://covid-19-tracking.p.rapidapi.com/v1", {
       {
         d.innerHTML = `Last Update: ${result[i]["Last Update"]}` ;
         a.innerHTML= `Active cases: ${result[i]["Active Cases_text"]}`;
+
+        // cards
        
         card.innerHTML=  `<div class="card" style="width: 270px; height:320px">
         <img src="card1.jpg" class="card-img-top" >
@@ -184,3 +186,4 @@ fetch("https://covid-19-tracking.p.rapidapi.com/v1", {
 
 
 
+//end of cards

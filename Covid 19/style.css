@@ -53,10 +53,20 @@ input:focus, textarea {
      justify-content:center;
      flex-direction:row;
      margin-top: 50px;
+      
  }
  .card
  {
      margin: 15px;
+     box-shadow: 6px 10px 18px #752cfd;
+    
+     animation: shadw 1s linear infinite alternate;
+     
+ }
+ @keyframes shadw{
+   0%{box-shadow: 6px 10px 18px #752cfd;}
+   50%{box-shadow:6px 10px 18px #fd2cda;}
+   100%{box-shadow:6px 10px 18px #3af162}
  }
 
  .country
@@ -123,6 +133,7 @@ input:focus, textarea {
   }
 
 /* end of autocomplete */
+
  
 @media only screen and (max-width: 760px)  {
 
@@ -136,8 +147,11 @@ input:focus, textarea {
      justify-content:center;
      align-items: center;
      flex-direction:column;
+      
  }
  .card {
      margin-bottom: 10px;
+    
+     
  }
 }
