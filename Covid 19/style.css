@@ -1,0 +1,49 @@
+body {
+     
+    height:100vh;
+    width:100vw;
+background:linear-gradient(rgb(253, 215, 215),rgb(252, 252, 203)); 
+background-size: cover;
+background-repeat: no-repeat;
+    
+}
+
+.head{
+  width:100%;
+  height:180px;
+  background-image: url('covid.gif');
+  background-size: auto;
+  background-repeat: no-repeat;
+  background-position:center;
+   
+   
+}
+#CN
+{
+    border-radius: 5px;
+    background:transparent;
+    border: none;
+    border-bottom: 3px solid gray;
+    text-align: center;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    
+}
+
+input:focus, textarea {
+    outline: none !important;
+}
+
+.btn 
+{
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    
+}
+
+@media only screen and (max-width: 760px)  {
+    
+    
+}
