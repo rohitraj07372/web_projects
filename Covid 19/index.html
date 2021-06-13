@@ -23,8 +23,11 @@
         <div class="row">
             <div class="col">
                 <div class="country">
-                    <form id="form">
-                        <input id="CN" type="text" placeholder="Country Name">
+                    <form id="form" autocomplete="off">
+                        
+                        <div class="autocomplete" style="width:300px;">
+                            <input id="myInput" type="text" name="myCountry" placeholder="Country">
+                          </div>
                         <button type="submit" id="submit" class="btn   mt-5">Submit<span style="font-weight: lighter;">(artistan)</span></button>
                     </form>
 
