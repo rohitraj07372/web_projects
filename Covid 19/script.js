@@ -3,6 +3,14 @@ let btn = document.getElementById('submit');
 let d = document.getElementById('date');
 let a = document.getElementById('active');
 let card = document.getElementById('cards');
+country.addEventListener('keyup',function(event) {
+    if(event.keyCode === 13) {{
+        event.preventDefault();
+        btn.click();
+    }}
+});
+
+
 btn.addEventListener('click',function(e) {
     e.preventDefault();
     
