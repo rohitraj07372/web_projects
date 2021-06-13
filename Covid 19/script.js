@@ -49,6 +49,8 @@ function autocomplete(inp, arr) {
           }
         }
     });
+ 
+    
     /*execute a function presses a key on the keyboard:*/
     inp.addEventListener("keydown", function(e) {
         var x = document.getElementById(this.id + "autocomplete-list");
