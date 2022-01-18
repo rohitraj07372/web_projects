@@ -1,0 +1,123 @@
+@import url("https://fonts.googleapis.com/css2?family=Pushster&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Pushster&family=Roboto+Slab:wght@900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Pushster&family=Roboto+Slab:wght@900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Playfair+Display:ital@1&family=Roboto+Slab:wght@900&family=The+Nautigal:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Fira+Sans:wght@200&family=Playfair+Display:ital@1&family=Roboto+Slab:wght@900&family=The+Nautigal:wght@700&display=swap");
+.container {
+  animation: fadeInAnimation ease 3s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+}
+
+@keyframes fadeInAnimation {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+/* ***********  glowing text ******************** */
+
+/* .greet {
+  padding-left: 50px;
+  margin-top: 50px;
+  letter-spacing: 5px;
+  color: #116570;
+  width: 100%;
+
+  line-height: 0.7em;
+  outline: none;
+  animation: animate 5s linear infinite;
+}
+
+@keyframes animate {
+  0%,
+  18%,
+  20%,
+  50.1%,
+  60%,
+  65.1%,
+  80%,
+  90.1%,
+  92% {
+    color: #124669;
+    text-shadow: none;
+  }
+  18.1%,
+  20.1%,
+  30%,
+  50%,
+  60.1%,
+  65%,
+  80.1%,
+  90%,
+  92.1%,
+  100% {
+    color: #fff;
+    text-shadow: 0 0 10px #03bcf4, 0 0 20px #03bcf4, 0 0 40px #03bcf4,
+      0 0 80px #03bcf4, 0 0 160px #03bcf4;
+  }
+} */
+
+.greet {
+  display: flex;
+  flex-direction: column;
+  margin-top: 5vh;
+}
+
+.greet > h2 {
+  font-family: "Roboto Slab", serif;
+  font-size: 3.2em;
+  padding: 10px;
+}
+.greet > h1 {
+  font-family: "Roboto Slab", serif;
+  font-size: 3.4em;
+}
+.greet > p {
+  padding-left: 10px;
+  font-family: "Fira Sans", sans-serif;
+  font-size: 1.5em;
+}
+/* ***********  end glowing text ******************** */
+/* *********** social icons **************** */
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+}
+a:link {
+  text-decoration: none;
+  color: rgb(68, 67, 67);
+}
+/* Add a hover effect if you want */
+.fa:hover {
+  opacity: 0.7;
+}
+
+/* Set a specific color for each brand */
+
+/* Facebook */
+.fa-facebook {
+  background: #3b5998;
+  color: white;
+}
+
+/* Twitter */
+.fa-twitter {
+  background: #55acee;
+  color: white;
+}
+
+/* ***********  end of social icos */
+
+.social-icons {
+  margin-top: 100px;
+}
+.padding {
+  margin-right: 50px;
+}
